@@ -1,0 +1,35 @@
+.absCenter{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+.fixedCenter{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+.centV{
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+}
+.centH{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+textarea {
+	width: 400px;
+	height: 400px;
+	resize: none;
+	float: left;
+}
+#button {
+	width: 200px;
+	height: 406px;
+	float: left;
+	background-color: #3067F2;
+	color: #091337;
+}
